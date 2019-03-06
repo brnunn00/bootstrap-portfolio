@@ -1,0 +1,43 @@
+/* .navbar-nav{
+    display: flex;
+    flex-direction: row;
+} */
+body, html
+{ 
+ 
+     
+    background-image: url("Assets/images/white-waves.png");
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+ } 
+.panel-main{
+background-color:white;
+
+}
+.row{
+    margin-bottom: 15px;
+}
+.img-responsive{
+    margin: 5px;    
+    max-width: 100%;
+    min-width: 100%;    
+    height: auto;
+}
+.bannerText{
+   
+        position: absolute;
+        bottom: 0;
+        
+        background-color: #4BA8A4;
+        height: 25%;   
+        width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+.bannerInnerText{
+    color: white;   
+    text-align: center;
+height: 100%;
+line-height: 50px;
+}
