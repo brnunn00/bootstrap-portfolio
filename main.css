@@ -5,16 +5,36 @@
 body, html
 { 
  
-     
+    
     background-image: url("Assets/images/white-waves.png");
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
  } 
+ .pageCont{
+   min-height: 77vh;
+ }
+ 
+    
+
 .panel-main{
 background-color:white;
 
 }
-.row{
+.panel-content{
+    padding: 15px;
+    margin-bottom: 15px;
+   
+}
+.mainPan{
+min-height: 360px;}
+
+.myPic{
+    /* height: auto;
+    width: 100%; */
+    max-height: 150px;
+    max-width: 150px;
+}
+.row.primary{
     margin-bottom: 15px;
 }
 .img-responsive{
@@ -22,22 +42,124 @@ background-color:white;
     max-width: 100%;
     min-width: 100%;    
     height: auto;
+    position: relative;
 }
 .bannerText{
    
         position: absolute;
-        bottom: 0;
+        bottom: 15%;
         
         background-color: #4BA8A4;
-        height: 25%;   
-        width: 100%;
-    margin-bottom: 15px;
+        height: 20%;   
+        width: inherit;
+        /* margin-right: 25px; */
+    
+    right: 0; /* constrains element to right side of container */
+	  left: 0; /* constrains element to left side of container*/
+	  margin: 0 15px 0 15px; /* kind of a hack, but you can fix transitions with media queries */
+    
     
 }
 
 .bannerInnerText{
-    color: white;   
+    background-color: #4aaaa5;
     text-align: center;
-height: 100%;
-line-height: 50px;
+    color: white;
+    position: absolute; /* child element, allows for label to move up */
+    bottom: 15%; /* moves the label up from the bottom */
+    right: 0; /* constrains element to right side of container */
+    left: 0; /* constrains element to left side of container*/
+    margin: 0 15px 0 15px; /* kind of a hack, but you can fix transitions with media queries */
+
+
+}
+.picCont{
+    margin-right: 25px;
+    width: 100%;
+    height: 100%;
+    margin-right: 25px;
+}
+.project{
+    position: relative;
+}
+ .picBlock{
+    /* width: 33.3%; */
+    /* float: left; */
+    
+    /* list-style-type:none;
+    list-style: none; */
+    width: 100%;
+    /* margin-right: 25px; */
+  }
+  .grr{
+    margin-right: 25px;
+  }
+  .port-image{
+      margin: 20px auto;
+  }
+  img {
+    border: none;
+    display: inline-block;
+    height: auto;
+   
+    max-width: 100%;
+    vertical-align: middle;
+  }
+ 
+  .nameBrand{
+    padding: 0 10px 0 10px;
+    /* float: left; */
+    background-color: #4BA8A4;
+    color: white;
+    /* display: block; */
+    /* height: 75px; */
+    margin:0 !important;
+    text-align: center;
+     
+}
+
+#nameText{
+    vertical-align: middle;
+color: white;}
+
+#mainHeader{
+    color: #4aaaa5;
+    margin: 0;
+    padding: 15px 15px 0 15px;
+}
+
+#headerSep{
+    border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:lightgray;
+  height: 2px;
+}
+
+ul{
+    margin: 0;
+}
+
+.footer{
+   
+ 
+    min-height: 75px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    justify-content: center;
+  
+  
+  
+}
+
+#footerText{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    color:lightgrey;
+    padding-bottom: 5px;
+    padding-top:35px;
+      
 }
