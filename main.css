@@ -13,20 +13,25 @@ body, html
  .pageCont{
    min-height: 77vh;
  }
- 
+ #contactForm{
+     padding: 0 15px 0 15px;
+ }
     
 
 .panel-main{
 background-color:white;
 
 }
+
+
 .panel-content{
     padding: 15px;
     margin-bottom: 15px;
    
 }
 .mainPan{
-min-height: 360px;}
+min-height: 360px;
+padding: 0 15px 0 15px;  }
 
 .myPic{
     /* height: auto;
@@ -50,7 +55,7 @@ min-height: 360px;}
         bottom: 15%;
         
         background-color: #4BA8A4;
-        height: 20%;   
+        height: 30%;   
         width: inherit;
         /* margin-right: 25px; */
     
@@ -96,6 +101,7 @@ min-height: 360px;}
   }
   .port-image{
       margin: 20px auto;
+     
   }
   img {
     border: none;
@@ -105,15 +111,20 @@ min-height: 360px;}
     max-width: 100%;
     vertical-align: middle;
   }
+  .navWrap{
+      /* margin-right: 13%;
+      padding: 0 20px 0 20px; */
+  }
  
   .nameBrand{
-    padding: 0 10px 0 10px;
+    /* margin-left: 13%; */
     /* float: left; */
     background-color: #4BA8A4;
     color: white;
+    
     /* display: block; */
     /* height: 75px; */
-    margin:0 !important;
+    /* margin-left: 0px !important; */
     text-align: center;
      
 }

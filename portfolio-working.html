@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Bryans Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,43 +15,44 @@
 </head>
 
 <body>
-    <div class="row primary">
-        <nav class="navbar  col-12 navbar-light navbar-expand-lg bg-light navbar-toggleable-xl">
-            <!-- <div class="col-sm-2">&nbsp;</div> -->
-            <div class="col-3  offset-sm-2">
-                <div class="navbar-brand nameBrand float-left">
-                    <h2 id="nameText">Rafael Bryan Nunn </h2>
-                </div>
+        <div class="row primary">
+                <nav class="navbar col-lg-12 navbar-light navbar-expand-lg bg-light navbar-toggleable-xl">
+                    <!-- <div class="col-sm-2">&nbsp;</div> -->
+                   <!-- <div class="row"> -->
+                   <!-- COULD NOT GET THE NAVABAR TO KEEP SOME SPACING WITHOUT USING THESE EMPTY COLUMNS -->
+                    <div class="col-0 col-sm-2"></div>
+                        <div class="navbar-brand nameBrand  mr-auto">
+                            <h2 id="nameText">Rafael Bryan Nunn</h2>
+                        </div>
+                  
+                    
+                        <ul class="nav navbar-nav navWrap ">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#">Home</a></li> -->
+                            <li class="nav-item active"><a class="nav-link" href="portfolio-working.html">Portfolio</a> </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
+                        </ul>
+                    
+        <div class="col-0 col-sm-2"></div>
+                </nav>
             </div>
-            <div class="col-5 offset-sm-1">
-                <ul class="nav navbar-collapse navbar-nav navbar-right float-right nowrap">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a> </li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#">Home</a></li> -->
-                    <li class="nav-item active"><a class="nav-link" href="#">Portfolio</a> </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Me</a></li>
-                </ul>
+            <div class="pageCont">
+                    <div class="container ">
+                        <div class="row justify-content-center mainPan">
+                            <div class="col-sm-1">&nbsp;</div>
 
-            </div>
-            <!-- <div class="col-xs">&nbsp;</div> -->
-        </nav>
-    </div>
+                <div class="panel-main col-md-10 panel-content">
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-1">&nbsp;</div>
+                    <div class="row justify-content-start">
+                        <h2 id="mainHeader">Portfolio</h2>
+                        <hr id="headerSep">
+                    </div>
 
-            <div class="panel-main col-sm-10 panel-content">
-
-                <div class="row justify-content-start">
-                    <h2 id="mainHeader">Portfolio</h2>
-                    <hr id="headerSep">
-                </div>
-                <div class="container">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center">
+                        <div class="col-md-12 center">
 
-                            <div class="row">
-                                <div class="col-sm-4 project">
+                            <div class="row justify-content-left">
+                                <div class="col-md-4 col-10 project">
 
                                     <img src="Assets/images/rpg.jpg" class="img-responsive port-image"
                                         alt="Responsive image" />
@@ -61,7 +62,7 @@
 
 
                                 </div>
-                                <div class="col-sm-4 project">
+                                <div class="col-md-4 col-10 project justify-content-left">
 
                                     <img src="Assets/images/hangman.jpg" class="img-responsive port-image"
                                         alt="Responsive image" />
@@ -71,8 +72,8 @@
 
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-4 project">
+                            <div class="row justify-content-left">
+                                <div class="col-md-4 col-10 project">
                                     <div class="picBlock ">
                                         <img src="Assets/images/rps.jpg" class="img-responsive port-image "
                                             alt="Responsive image" />
@@ -81,7 +82,7 @@
 
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-md-4 col-10">
 
                                     <img src="Assets/images/rutgers.jpg" class="img-responsive port-image"
                                         alt="Responsive image" />
@@ -91,8 +92,8 @@
 
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-sm-4 project">
+                            <div class="row justify-content-left">
+                                <div class="col-md-4 col-10 project">
 
                                     <img src="Assets/images/trivia.jpg" class="img-responsive port-image"
                                         alt="Responsive image" />
@@ -107,11 +108,14 @@
 
                         </div>
 
-                    </div>
 
+                    </div>
                 </div>
-            </div>
+           
+            <div class="col-md-1">&nbsp;</div>
         </div>
+        
+
     </div>
     <footer class="page-footer footer">
 
